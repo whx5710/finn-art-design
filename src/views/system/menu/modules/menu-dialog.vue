@@ -266,7 +266,7 @@
           type: 'number',
           props: { min: 1, controlsPosition: 'right', style: { width: '100%' } }
         },
-        { label: '权限标识', key: 'authList', type: 'inputtag', props: { placeholder: '回车确认' } }
+        { label: '权限标识', key: 'authList', type: 'inputtag', span: 24, props: { placeholder: '回车确认' } }
       ]
     }
   })
